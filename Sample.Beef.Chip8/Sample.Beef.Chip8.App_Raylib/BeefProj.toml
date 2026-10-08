@@ -1,0 +1,14 @@
+FileVersion = 1
+
+[Project]
+Name = "Sample.Beef.Chip8.App_Raylib"
+StartupObject = "Sample.Beef.Chip8.App_Raylib.Program"
+
+[Dependencies]
+corlib = "*"
+"Sample.Beef.Chip8" = "*"
+raylib-beef = {Git = "https://github.com/Starpelly/raylib-beef.git?path=raylib-beef"}
+
+[Configs.Debug.Win64]
+DebugCommandArguments = "c8games/PONG"
+DebugWorkingDirectory = "$(WorkspaceDir)"

@@ -1,0 +1,6 @@
+FileVersion = 1
+
+[Locks.raylib-beef.Git]
+URL = "https://github.com/Starpelly/raylib-beef.git?path=raylib-beef"
+Tag = ""
+Hash = "f492a45b35ba8447970ec3f5d0d7f60eab2957e3"

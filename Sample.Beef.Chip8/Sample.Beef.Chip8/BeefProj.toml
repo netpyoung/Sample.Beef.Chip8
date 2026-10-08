@@ -1,0 +1,6 @@
+FileVersion = 1
+
+[Project]
+Name = "Sample.Beef.Chip8"
+TargetType = "BeefLib"
+StartupObject = "Sample.Beef.Chip8.Program"

@@ -1,0 +1,14 @@
+FileVersion = 1
+
+[Project]
+Name = "Sample.Beef.Chip8.App_SDL"
+StartupObject = "Sample.Beef.Chip8.App_SDL.Program"
+
+[Dependencies]
+corlib = "*"
+SDL2 = "*"
+"Sample.Beef.Chip8" = "*"
+
+[Configs.Debug.Win64]
+DebugCommandArguments = "c8games/PONG2"
+DebugWorkingDirectory = "$(WorkspaceDir)"

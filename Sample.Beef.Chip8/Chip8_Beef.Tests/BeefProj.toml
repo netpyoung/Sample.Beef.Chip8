@@ -1,0 +1,10 @@
+FileVersion = 1
+
+[Project]
+Name = "Chip8_Beef.Tests"
+TargetType = "BeefTest"
+StartupObject = "Chip8_Beef.Tests.Program"
+
+[Dependencies]
+corlib = "*"
+"Sample.Beef.Chip8.App_SDL" = "*"

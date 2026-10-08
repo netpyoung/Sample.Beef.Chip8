@@ -1,0 +1,12 @@
+FileVersion = 1
+
+[Workspace]
+StartupProject = "Sample.Beef.Chip8.App_SDL"
+
+[Projects]
+"Sample.Beef.Chip8.App_SDL" = {Path = "Sample.Beef.Chip8.App_SDL"}
+SDL2 = "*"
+"Chip8_Beef.Tests" = {Path = "Chip8_Beef.Tests"}
+"Sample.Beef.Chip8" = {Path = "Sample.Beef.Chip8"}
+"Sample.Beef.Chip8.App_Raylib" = {Path = "Sample.Beef.Chip8.App_Raylib"}
+raylib-beef = {Git = "https://github.com/Starpelly/raylib-beef.git?path=raylib-beef"}
