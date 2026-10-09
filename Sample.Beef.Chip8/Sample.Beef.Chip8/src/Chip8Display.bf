@@ -39,7 +39,7 @@ public struct Chip8Display
     const Color COLOR_ON =  .(255, 255, 255, 255);
     const Color COLOR_OFF = .(0, 0, 0, 255);
 
-    u32[WIDTH * HEIGHT] _pixels; // 64 * 32 == 256 bytes
+    u32[WIDTH * HEIGHT] _pixels; // 64 * 32 == 2048
 
     public void SetPixel(int x, int y) mut
     {
