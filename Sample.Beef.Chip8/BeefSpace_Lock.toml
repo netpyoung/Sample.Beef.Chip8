@@ -1,5 +1,10 @@
 FileVersion = 1
 
+[Locks."SDL3-Beef.git".Git]
+URL = "https://github.com/SedulousWorks/SDL3-Beef.git"
+Tag = ""
+Hash = "14d36c83d95be232ce7c4515f4357c338fe082f7"
+
 [Locks.raylib-beef.Git]
 URL = "https://github.com/Starpelly/raylib-beef.git?path=raylib-beef"
 Tag = ""

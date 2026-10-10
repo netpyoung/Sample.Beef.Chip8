@@ -6,8 +6,8 @@ StartupObject = "Sample.Beef.Chip8.App_SDL.Program"
 
 [Dependencies]
 corlib = "*"
-SDL2 = "*"
 "Sample.Beef.Chip8" = "*"
+"SDL3-Beef.git" = {Git = "https://github.com/SedulousWorks/SDL3-Beef.git"}
 
 [Configs.Debug.Win64]
 DebugCommandArguments = "c8games/PONG2"

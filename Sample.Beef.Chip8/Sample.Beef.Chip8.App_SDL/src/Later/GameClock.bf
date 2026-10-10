@@ -1,4 +1,4 @@
-using SDL2;
+using SDL3;
 using System;
 
 namespace Sample.Beef.Chip8.App_SDL.Later;
@@ -28,15 +28,15 @@ class GameClock
         TargetFps = targetFps;
         FixedDeltaTimeSec = 1.0f / targetFps;
 
-        _performanceFrequency = SDL.GetPerformanceFrequency();
-        _performanceCounter_curr = SDL.GetPerformanceCounter();
+        _performanceFrequency = SDL_GetPerformanceFrequency();
+        _performanceCounter_curr = SDL_GetPerformanceCounter();
         _performanceCounter_prev = _performanceCounter_curr;
     }
 
     [Inline]
     public void UpdatePerFrameLoop()
     {
-        _performanceCounter_curr = SDL.GetPerformanceCounter();
+        _performanceCounter_curr = SDL_GetPerformanceCounter();
         let diff = _performanceCounter_curr - _performanceCounter_prev;
         _performanceCounter_prev = _performanceCounter_curr;
 
